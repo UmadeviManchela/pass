@@ -1,0 +1,16 @@
+sno=int(input('enter sno:'))
+sname=input('enter name:')
+group=input('enter group:')
+s1=int(input('enter eng marks:'))
+s2=int(input('enter tel marks:'))
+s3=int(input('enter hin marks:'))
+print('sno=',sno)
+print('sname=',sname)
+print('group=',group)
+if s1>=35:
+    if s2>=35:
+        if s3>=35:
+            print('pass')
+else:
+    print('fail')
+
